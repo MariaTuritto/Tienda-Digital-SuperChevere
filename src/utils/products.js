@@ -1,0 +1,163 @@
+export const ITEMS_LIST = [
+{
+    id: 1,
+    title: "Harina de Maíz P.A.N",
+    category: "Almacen",     
+},
+{
+    id: 2,
+    title: "Harina de Maíz COSACO",
+    category: "Almacen",
+},
+{
+    id: 3,
+    title: "Harina de Maíz MORIXE",
+    category: "Almacen",
+},
+{
+    id: 4,
+    title: "Harina de Maíz Tostado FORORO MONAY",
+    category: "Almacen",
+},
+{
+    id: 5,
+    title: "QUESO LLANERO MARCA EL LLANO",
+    category: "Lacteos",
+},
+{
+    id: 6,
+    title: "QUESO LLANERO MARCA MERIDA",
+    category: "Lacteos",
+},
+{
+    id: 7,
+    title: "NATA MERIDA",
+    category: "Lacteos",
+},
+{
+    id: 8,
+    title: "NATA- NATILLA NATIRICA",
+    category: "Lacteos",
+},
+{
+    id: 9,
+    title: "SUERO EL CAROREÑO",
+    category: "Lacteos",
+},
+{
+    id: 10,
+    title: "MARGARINA DANICA",
+    category: "Lacteos",
+},
+{
+    id: 11,
+    title: "CACHAPAS CONGELADAS",
+    category: "Congelados",
+},
+{
+    id: 12,
+    title: "CHULETAS AHUMADAS",
+    category: "Congelados",
+},
+
+];
+
+export const ITEMS_DETAILS = [
+    {
+        id: 1,
+        title: "Harina de Maíz P.A.N",
+        img: "p.a.n.jpg",
+        deteail: "Harina de Maiz precocida de 1kg, libre de gluten",
+        price: 460,
+        category: "Almacen",
+      },
+      {
+        id: 2,
+        title: "Harina de Maíz COSACO",
+        img: "images/cosaco.png",
+        deteail: "Harina de Maiz precocida de 1kg",
+        price: 360,
+        category: "Almacen",
+      },
+      {
+        id: 3,
+        title: "Harina de Maíz MORIXE",
+        img: "../images/morixe.jpg",
+        deteail: "Harina de Maiz precocida de 1kg",
+        price: 400,
+        category: "Almacen",
+      },
+      {
+        id: 4,
+        title: "Harina de Maíz Tostado FORORO MONAY",
+        img: "../../images/fororo.jpg",
+        deteail: "Harina de Maiz tostado de 400gr",
+        price: 220,
+        category: "Almacen",
+      },
+      {
+        id: 5,
+        title: "QUESO LLANERO MARCA EL LLANO",
+        img: "llanero.png",
+        deteail: "Queso tipo venezolano, duro para rallar",
+        price: 1480,
+        category: "Lacteos",
+      },
+      {
+        id: 6,
+        title: "QUESO LLANERO MARCA MERIDA",
+        img: "merida.png",
+        deteail: "Queso tipo venezolano, duro para rallar",
+        price: 460,
+        category: "Lacteos",
+      },
+      {
+        id: 7,
+        title: "NATA MERIDA",
+        img: "natamer.jpg",
+        deteail: "Nata a base de leche y manteca, ideal para untar",
+        price: 560,
+        category: "Lacteos",
+      },
+      {
+        id: 8,
+        title: "NATA- NATILLA NATIRICA",
+        img: "nata.jpg",
+        deteail: "Nata a base de leche y manteca, ideal para untar",
+        price: 560,
+        category: "Lacteos",
+      },
+      {
+        id: 9,
+        title: "SUERO EL CAROREÑO",
+        img: "suero.jpg",
+        deteail: "Suero a base de leche, ideal para acompañar tus arepas",
+        price: 460,
+        category: "Lacteos",
+      },
+      {
+        id: 10,
+        title: "MARGARINA DANICA",
+        img: "danica.jpg",
+        deteail: "Margarina con sal, ideal para acompañar tus arepas",
+        price: 260,
+        category: "Lacteos",
+      },
+      {
+        id: 11,
+        title: "CACHAPAS CONGELADAS",
+        img: "",
+        deteail: "Cachapas a base de maiz(choclo), agua, huevo, sal y azucar",
+        price: 1220,
+        category: "Congelados",
+      },
+      {
+        id: 12,
+        title: "CHULETA AHUMADA",
+        img: "",
+        deteail: "Chuleta (Carre) de cerdo ahumado",
+        price: 1580,
+        category: "Congelados",
+      },
+];
+

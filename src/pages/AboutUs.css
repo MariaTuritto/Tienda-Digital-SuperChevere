@@ -1,0 +1,16 @@
+.title{
+    font-size: 3rem;
+}
+
+.aboutUsContainer{
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.linksAbout{
+    text-decoration: none;
+    color: black;
+    text-align:right;
+}

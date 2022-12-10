@@ -1,0 +1,43 @@
+.nav{
+    background-color: rgb(224, 220, 220);
+    color: black;
+    height: 7rem;
+}
+
+.titleNav {
+    font-family: "Lobster", sans-serif;
+    font-size: 2rem;
+}
+
+.buttonSearch{
+    border-color: #bd881ff5;
+    
+    }
+
+.imgLogo{
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+ .imgLogo:hover {
+    max-width: 110px; }
+
+.button2{
+    border-color: #bd881ff5;
+    color: black;
+}
+
+.button2:hover{
+    background-color:  #bd881ff5;
+    color: #fff;
+}
+
+.NavLink{
+    display: flex;
+    gap: 30px;
+}
+.link {
+    text-decoration: none;
+    color:#1f1f15;
+    cursor: pointer;
+}
