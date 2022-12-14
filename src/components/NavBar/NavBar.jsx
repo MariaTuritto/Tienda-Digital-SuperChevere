@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Cartwidget from '../CartWidget/CartWidget';
 import "./NavBar.css";
 import Logo from "../../images/logo.jpg"
@@ -36,13 +35,7 @@ function NavBar(props) {
                   }>
               {page.name}
                          
-           {/* <NavDropdown title="Productos" id={page.name}>
-              <NavDropdown.Item href="#action3">Almacen</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Bebidas</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Congelados</NavDropdown.Item>
-              <NavDropdown.Item href="#action6">Lacteos</NavDropdown.Item>
-              <NavDropdown.Divider />
-            </NavDropdown> */}
+          
           
             </NavLink>
                 </li>
@@ -58,10 +51,10 @@ function NavBar(props) {
             />
             <Button className="button2" variant="outline-success">Buscar</Button>
           </Form>
-        </Navbar.Collapse>
-       
-       {/* ICON CARTWIDGET*/}
+
+            {/* ICON CARTWIDGET*/}
       <Cartwidget/>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

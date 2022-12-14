@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Card from "../../components/Card/Card";
 import { getAllProducts } from "../../services/index";
 import { isEmpty } from "../../utils/array";
 import "./ItemListContainer.css";
 
 
-export default function ItemListContainer() {
+export default function ItemListContainer(props) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -16,19 +16,20 @@ export default function ItemListContainer() {
   return (
     <div className="produtsListContainer" area="content">
       {isEmpty(products) ? (
-        <span className="loadingText">Loading Prod.....</span>
+        <span className="loadingText">Loading Products...</span>
       ) : (
         <div className="productsList">
           {products.map((product) => (
-         <Card key={product.id} 
-              title={product.title} 
-              img = {product.img} 
-              detail={product.detail}
-              price ={product.price}>
-            
-            <button>Ver info </button>
+             <Card key={product.id} 
+             title={product.title} 
+             img = {product.img} 
+             detail={product.detail}
+             price ={product.price}>
+       
+      </Card>
+         
         
-       </Card>
+     
              
           ))}
         </div>

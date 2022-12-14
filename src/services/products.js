@@ -15,4 +15,4 @@ export function getProducts(productId) {
     );
     setTimeout(() => resolve(targetProduct), 1000);
   });
-}
+};
